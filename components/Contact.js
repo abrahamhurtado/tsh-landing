@@ -2,7 +2,10 @@ import { Row, Col, Container, Card } from "reactstrap";
 import Form from "./Form";
 import Map from "./Map";
 export default () => (
-  <div style={{ background: "#f7f7f7", paddingTop: 25, paddingBottom: 25 }}>
+  <div
+    style={{ background: "#f7f7f7", paddingTop: 25, paddingBottom: 25 }}
+    id="contact"
+  >
     <Container>
       <Row>
         <Col md="4">
